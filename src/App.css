@@ -1,0 +1,140 @@
+/* .App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 40px 15px auto;
+}
+
+.App button {
+  width: max-content;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+} */
+
+/* .App > input[type="file"] {
+  border: 1px solid #adc4ce;
+  padding: 10px;
+} */
+
+/* Add this CSS to your stylesheet */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* You can adjust the height as needed */
+  gap: 20px; /* Adjust the spacing between elements */
+}
+
+.marker-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Adjust the spacing between components */
+}
+
+label {
+  font-size: 18px; /* Adjust the font size as needed */
+  color: #333; /* Adjust the text color */
+  font-weight: bold; /* You can adjust the font weight */
+  margin-right: 10px; /* Adjust the spacing between label and button */
+}
+
+.image-controls {
+  display: flex;
+  gap: 10px; /* Adjust the spacing between label and button */
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+/* Style for the file input */
+input[type="file"] {
+  /* display: none; */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
+
+circle {
+  cx: 7.5;
+  cy: 7.5;
+  r: 1;
+  fill-opacity: 0.7;
+  stroke: rgb(51, 51, 51);
+  stroke-width: 2;
+  stroke-opacity: 0.7;
+}
+
+image:hover {
+  filter: invert(42%) sepia(93%) saturate(1198%) hue-rotate(161deg)
+    brightness(95%) contrast(101%);
+}
+g rect:hover {
+  filter: invert(42%) sepia(93%) saturate(1198%) hue-rotate(161deg)
+    brightness(95%) contrast(101%);
+}
+div.__markerjs2__0_toolbox__markerjs2__0_toolbox_colors {
+  visibility: visible;
+}
+.__markerjs2__0_toolbox-button-row {
+  display: flex;
+  cursor: default;
+  box-sizing: content-box;
+  bottom: 40px;
+  width: 100%;
+  margin-top: -206px;
+  margin-bottom: 200px;
+  z-index: 1000;
+  position: absolute;
+}
+.__markerjs2__0_toolbox-panel-row {
+  display: flex;
+  position: absolute;
+  bottom: 40px;
+  cursor: default;
+  height: 60px;
+  width: 100%;
+  box-sizing: content-box;
+  margin-top: -67%;
+  margin-bottom: 220px;
+  z-index: 1000;
+}
